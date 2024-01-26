@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+        <title>Desafio Decodificador</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="conteudo">
+                <aside class="conteudo-icon">
+                    <img src="img/Frame 6.svg" alt="logo-alura">
+                </aside>
+                <main class="conteudo-principal">
+                    <textarea class="primeiro-texto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                    <div class="btns">
+                        <span>
+                            <iconify-icon icon="bi:exclamation-circle-fill"></iconify-icon>Apenas letras minúsculas.
+                        </span>
+                        <div class="layout">
+                            <button class="padrao-btn btn-cript">Criptografar</button>
+                            <button class="padrao-btn btn-descript">Descriptografar</button>
+                        </div>
+                    </div>
+                </main>
+                <aside class="conteudo-resultado">
+                    <div class="container-resultado" style="display: flex;">
+                        <img src="img/High quality products 1 1.svg" id="img-resultado" alt="logo-resultado">
+                        <div class="msg-resultado">
+                            <h2>Nenhuma mensagem encontrada.</h2>
+                            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                        </div>
+                    </div>
+                    <div class="container-result-cript" style="display:none;">
+                        <textarea id="" cols="30" rows="10" class="txt-result"></textarea>
+                        <button class="padrao-btn btn-copiar">Copiar</button>
+                    </div>
+                </aside>
+            </div>
+            <footer class="rodape">
+                Desenvolvido por Peterson Barrios.
+            </footer>
+        </div>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <script src="app.js"></script>
+        </body>
+</html>
